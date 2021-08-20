@@ -1,0 +1,79 @@
+@import '../../../utils/styles/mixins';
+
+.creator-card {
+  background-color: transparent;
+  border: 2px solid #cacaca;
+  // width: 340px;
+
+  margin-bottom: 60px !important;
+  color: #6f6f6f;
+  // @include boxShadow(0px, 3px, 40px);
+  padding: 10px;
+  border-radius: 20px;
+
+  &:hover {
+    // transform: scale(1.01);
+    // @include boxShadow(0px, 3px, 40px, 3px, #000);
+  }
+
+  .card-header {
+    background: var(--onPrimary);
+    padding: 5px;
+    border-radius: 20px;
+    margin: 0px;
+    position: relative;
+    .profile .profile-block {
+      width: 55px;
+      height: 55px;
+      .tick-icon {
+        width: 12px;
+        height: 12px;
+        bottom: 2px;
+        right: 4px;
+      }
+    }
+    .card-img-top {
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      height: 280px;
+      object-fit: cover;
+    }
+    p.sm {
+      font-size: 12px;
+    }
+    p.md {
+      font-size: 16px;
+      font-weight: bold;
+    }
+  }
+
+  .price-style {
+    background-image: linear-gradient(310deg, #7928ca 0%, #ff0080 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    font-weight: bold;
+  }
+  .card-footer {
+    padding: 10px 7px;
+    margin-top: 0px;
+    background: var(--onPrimary);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    @media (min-width: 576px) {
+      p {
+        font-size: 18px;
+      }
+    }
+    .btn-curve-col {
+      position: absolute;
+    }
+    .btn-curve {
+      border-bottom-right-radius: 20px;
+      @include boxShadow(0px, 3px, 10px, 0px, #1a1b1d);
+    }
+  }
+}

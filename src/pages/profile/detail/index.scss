@@ -1,0 +1,111 @@
+.profile-detail {
+  .banner {
+    height: 300px;
+    overflow: hidden;
+    margin: 0px;
+    margin-top: -50px;
+    @media (max-width: 576px) {
+      height: 120px;
+    }
+    img {
+      width: 100%;
+    }
+  }
+
+  .container {
+    margin-top: -88px;
+    @media (max-width: 576px) {
+      margin-top: -55px;
+    }
+
+    .user-block {
+      .profile {
+        @media (max-width: 576px) {
+          padding: 5px 15px;
+        }
+
+        .profile-block {
+          width: 190px;
+          height: auto;
+          @media (max-width: 576px) {
+            width: 90px;
+            height: auto;
+          }
+
+          .tick-icon {
+            width: 32px;
+            height: 32px;
+            bottom: -4px;
+            right: -10px;
+            @media (max-width: 576px) {
+              width: 15px;
+              height: 15px;
+              bottom: -3px;
+              right: -6px;
+            }
+          }
+        }
+      }
+      .link-btn p {
+        font-size: 20px;
+        @media (max-width: 576px) {
+          font-size: 10px;
+        }
+      }
+      .username {
+        font-size: 40px;
+        @media (max-width: 576px) {
+          font-size: 20px;
+        }
+      }
+      .sub-title-text {
+        @media (max-width: 576px) {
+          font-size: 13px;
+        }
+      }
+      .share-btn {
+        img {
+          @media (max-width: 576px) {
+            height: 13px;
+            width: 13px;
+          }
+        }
+      }
+      .social-buttons {
+        margin: unset;
+      }
+    }
+
+    .nav {
+      margin-top: 90px;
+      margin-bottom: 30px;
+      border: none;
+      gap: 40px;
+      border-bottom: 2px solid var(--onPrimary);
+
+      .nav-item {
+        .nav-link {
+          border: none;
+          color: #fff;
+          padding: 0px;
+          font-size: 20px;
+          @media (max-width: 576px) {
+            padding: 0px 12px;
+            font-size: 13px;
+          }
+        }
+        &:first-child .nav-link {
+          padding-left: 0px;
+        }
+        &:last-child .nav-link {
+          padding-right: 0px;
+        }
+        .nav-link.active {
+          color: inherit;
+          background-color: transparent;
+          border-bottom: 3px solid orange;
+        }
+      }
+    }
+  }
+}

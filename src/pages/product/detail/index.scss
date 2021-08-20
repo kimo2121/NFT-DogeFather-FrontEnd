@@ -1,0 +1,27 @@
+.history-modal {
+  .nav-item a p {
+    font-size: 18px;
+  }
+}
+
+.product-detail {
+  .navigation-card {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    margin-top: 1.5rem;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: unset;
+    width: 370px;
+  }
+  @media (max-width: 576px) {
+    .navigation-card {
+      width: auto;
+    }
+    .art-card {
+      width: 135px;
+      height: 180px;
+    }
+  }
+}

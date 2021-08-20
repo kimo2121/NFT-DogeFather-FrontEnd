@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="181.47900390625" height="181.47900390625" style=""><rect id="backgroundrect" width="100%" height="100%" x="0" y="0" fill="none" stroke="none"/>
+  <defs>
+    
+  <radialGradient id="svg_2" cx="0.45899999141693115" cy="0.2919999957084656" r="0.7610941529273987" gradientUnits="objectBoundingBox" spreadMethod="pad">
+      
+      
+      <stop offset="0" stop-color="#fefcf6"/>
+      <stop offset="0.32" stop-color="#e2b467"/>
+      <stop offset="0.61" stop-color="#ca802a"/>
+      <stop offset="0.76" stop-color="#c17323"/>
+      <stop offset="0.84" stop-color="#c47623"/>
+      <stop offset="0.9" stop-color="#cd7f22"/><stop offset="0.95" stop-color="#dc8f20"/><stop offset="1" stop-color="#f0a41d"/>
+    </radialGradient><filter xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" id="f139" x="-0.25" width="1.5" y="-0.25" height="1.5" inkscape:menu="Non realistic 3D shaders" inkscape:menu-tooltip="Combination of smooth shading and embossing" inkscape:label="Emboss shader" color-interpolation-filters="sRGB">
+            <feGaussianBlur result="result8" stdDeviation="5"/>
+            <feComposite in="result8" operator="xor" result="result6" in2="result8"/>
+            <feDisplacementMap result="result4" scale="100" yChannelSelector="A" xChannelSelector="A" in2="result6" in="result8"/>
+            <feComposite k1="1" in="result4" operator="arithmetic" result="result2" in2="result4"/>
+            <feComposite in2="result8" operator="in" in="result2" result="fbSourceGraphic"/>
+        </filter></defs>
+  
+<g class="currentLayer" style=""><title>Layer 1</title><circle id="Ellipse_226" data-name="Ellipse 226" cx="85.31400299072266" cy="96.53300476074219" r="85.31400299072266" transform="rotate(-3.7699999809265137 85.31400299072251,96.53300476074216) " fill="url(#svg_2)" class="selected" fill-opacity="1" filter="" opacity="1"/></g></svg>

@@ -1,0 +1,27 @@
+.info-text {
+  &.primary {
+    color: black;
+  }
+  &.secondary {
+    color: #b6b6b6;
+  }
+  &.sm {
+    font-size: 12px;
+    font-weight: 100;
+  }
+  &.md {
+    font-size: 15px;
+    font-weight: 300;
+  }
+  &.lg {
+    font-size: 25px;
+    font-weight: 500;
+  }
+  &.xl {
+    font-size: 45px;
+    font-weight: 700;
+  }
+  &.inline {
+    display: inline;
+  }
+}

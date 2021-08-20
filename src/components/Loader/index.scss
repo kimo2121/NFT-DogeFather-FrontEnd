@@ -1,0 +1,25 @@
+.loader {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  padding: 60px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: 300;
+  .loader-animation {
+    animation: rotating 2s linear infinite;
+  }
+}
+
+@keyframes rotating {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,48 @@
+.file-box {
+  height: 100%;
+  width: 100%;
+  background-color: #242424;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  border-radius: 8px;
+  text-align: center;
+
+  .file-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .info-text {
+    margin-bottom: 50px;
+    @media (max-width: 576px) {
+      margin-bottom: 0px;
+    }
+  }
+
+  .file-buttton {
+    background-color: #24242491;
+    border: 1px solid #828282;
+    padding: 12px 70px;
+    width: fit-content;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 10px;
+
+    .img {
+      margin-left: 18px;
+      width: 19px;
+    }
+
+    #file-input {
+      display: none;
+    }
+  }
+}

@@ -1,0 +1,93 @@
+.profile {
+  // border: 3px solid var(--accent);
+  display: inline-block;
+
+  @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+    &.blur-bg {
+      padding: 8px 32px;
+      border-radius: 17px;
+      -webkit-backdrop-filter: blur(10px);
+      backdrop-filter: blur(10px);
+      background-color: #73717140;
+    }
+  }
+
+  // &.blur-bg {
+  //   padding: 3px 15px;
+  //   background: #0000007a;
+  //   border-radius: 17px;
+  // }
+
+  .profile-block {
+    width: 70px;
+    height: 70px;
+    position: relative;
+    margin: auto;
+
+    .profile-img {
+      height: 100%;
+      width: 100%;
+      border-radius: 10px;
+    }
+    .tick-icon {
+      width: 17px;
+      height: 17px;
+      position: absolute;
+      bottom: 0px;
+      right: 0px;
+    }
+
+    .profile-file-overlay {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      margin: 0px;
+      top: 0px;
+      padding: 15px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      align-items: center;
+
+      .profile-file-buttton {
+        background-color: #24242491;
+        border: 1px solid #828282;
+        padding: 1px 22px;
+        color: #fff;
+        cursor: pointer;
+        border-radius: 50px;
+        font-size: 13px;
+        margin: 0px;
+
+        .button-icon {
+          margin-left: 18px;
+          width: 25px;
+        }
+
+        .profile-file-input {
+          display: none;
+        }
+      }
+    }
+  }
+  .homeCardStyle-profile-block {
+    width: 75px !important;
+    height: 75px !important;
+    border: 3px dotted #cc10a0;
+    border-radius: 50%;
+    padding: 5px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 70%;
+    position: absolute;
+    margin-top: 110px;
+  }
+
+  .homeCardStyle-profile-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+  }
+}

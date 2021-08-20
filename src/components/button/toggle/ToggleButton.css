@@ -1,0 +1,34 @@
+.cstm-toggle input[type=checkbox]{
+    display: none;
+}
+
+.cstm-toggle.btn-primary{
+    color: #fff;
+    border-radius: 20px;
+    background-color: transparent;
+    border-color: transparent;
+    padding: 7px 10px;
+    margin:0px;
+}
+.cstm-toggle img{
+    height: 21px;
+    width: 21px;
+    margin:0px !important;
+}
+.cstm-toggle.btn-primary:hover, .cstm-toggle.btn-primary:not(:disabled):not(.disabled).active:hover {
+    border-color: #5d300a;
+    background-color: transparent;
+    box-shadow: none;    
+}
+.cstm-toggle.btn-primary.focus, .btn-primary:focus {
+    box-shadow: none;
+    background-color: transparent;
+    border-color: transparent;
+}
+.cstm-toggle.btn-primary:not(:disabled):not(.disabled).active {
+    background-color: transparent;
+    border-color: transparent;
+}
+.cstm-toggle.btn-primary:not(:disabled):not(.disabled).active:focus{
+    box-shadow: none;
+}

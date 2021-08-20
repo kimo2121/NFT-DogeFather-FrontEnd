@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+  <g id="Icon_ionic-ios-arrow-dropleft" data-name="Icon ionic-ios-arrow-dropleft" transform="translate(0)">
+    <path id="Path_1215" data-name="Path 1215" d="M12.387,10.2a.763.763,0,0,1,1.075,0l3.757,3.769a.759.759,0,0,1,.024,1.048l-3.7,3.714a.759.759,0,1,1-1.075-1.071l3.143-3.19-3.226-3.194A.759.759,0,0,1,12.387,10.2Z" transform="translate(-1.157 -1.805)" fill="#fff"/>
+    <path id="Path_1216" data-name="Path 1216" d="M17.375,3.375a14,14,0,1,1-14,14A14,14,0,0,1,17.375,3.375ZM9,25.748A11.841,11.841,0,1,0,25.748,9,11.841,11.841,0,1,0,9,25.748Z" transform="translate(-3.375 -3.375)" fill="#fff"/>
+  </g>
+</svg>

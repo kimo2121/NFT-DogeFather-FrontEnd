@@ -1,0 +1,49 @@
+.product-details-header {
+  .sise-card {
+    max-width: 600px;
+    img.card-img-top {
+      width: 100%;
+      height: auto;
+    }
+
+    .profile .profile-block {
+      width: 50px;
+      height: 50px;
+    }
+    @media (max-width: 576px) {
+      .icon-button {
+        font-size: 13px;
+      }
+      img.card-img-top {
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+  .text-end-icon {
+    width: 18px;
+    height: 18px;
+  }
+  h2 {
+    font-size: 36px;
+    width: 288px;
+  }
+}
+.header-cta > div {
+  margin-top: 33px;
+  display: flex;
+  gap: 20px;
+  .input-wrapper {
+    display: inline-block;
+    input {
+      width: 120px;
+    }
+  }
+  label {
+    display: flex;
+    align-items: center;
+    span {
+      margin-left: 10px;
+    }
+  }
+}

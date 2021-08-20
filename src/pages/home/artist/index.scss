@@ -1,0 +1,82 @@
+@import '../../../utils/styles/mixins';
+
+.artist-card {
+  background-color: white;
+  border-radius: 20px;
+  width: fit-content;
+  .triangle-top-left {
+    position: absolute;
+    top: -22px;
+    left: -57px;
+    width: 120px;
+    height: 110px;
+  }
+  .top-artist-rank {
+    position: absolute;
+    color: white;
+    background-color: #f50386;
+    border-radius: 50%;
+    width: 25px;
+    border: 2px solid white;
+    text-align: center;
+    height: 25px;
+    z-index: 10;
+    left: 50px;
+    margin-top: -60px;
+  }
+  .card {
+    background-color: transparent;
+    margin: auto;
+    color: #6f6f6f;
+    padding: 1rem 0rem;
+    border: none;
+
+    .info-text {
+      img {
+        width: 22px;
+        height: 22px;
+      }
+    }
+  }
+}
+.artist-profile-card {
+  // width: 230px;
+  // height: 500px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 45px;
+  .card-row {
+    align-items: center;
+    flex-wrap: nowrap;
+
+    // &:hover {
+    //   @include backdropFilter(20px, 5, 0.2);
+    // }
+
+    &:active {
+      transform: scale(0.98);
+    }
+
+    .fixed-size-col {
+      max-width: 150px;
+    }
+
+    img {
+      width: 60px;
+    }
+  }
+}
+.artist-name-price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.atrist-sub-card-scroll {
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  overflow-x: auto;
+  padding: 15px;
+  // background: var(--primary);
+  border-radius: 1rem;
+}

@@ -1,0 +1,77 @@
+.history-menu-modal {
+  .modal-dialog {
+    max-width: 30%;
+    @media (max-width: 576px) {
+      max-width: 100%;
+    }
+  }
+  .modal-header {
+    border-bottom: 2px solid #5d5d5d;
+  }
+  .modal-body {
+    padding: 1rem 0px 0px 0rem;
+    max-height: 520px;
+    min-height: 320px;
+    overflow-y: auto;
+    position: unset;
+  }
+
+  .tab-content {
+    height: 300px;
+    overflow: auto;
+  }
+
+  .nav-tabs {
+    position: absolute;
+    top: -3px;
+    left: 0px;
+    padding-left: 0.5rem;
+
+    .nav-link {
+      border: none;
+      border-bottom: 2px solid transparent;
+      background: transparent;
+      color: #fff;
+      padding: 1rem 1rem;
+      p {
+        font-size: 18px;
+      }
+
+      &.active {
+        p {
+          color: orange;
+        }
+        color: orange;
+        border-bottom: 2px solid orange;
+      }
+    }
+  }
+
+  .sub-card {
+    align-items: center;
+    flex-wrap: nowrap;
+
+    &:hover {
+      background: #455a6438;
+    }
+
+    img {
+      width: 60px;
+    }
+  }
+  .content {
+    margin-bottom: 30px;
+    .avatar {
+      width: 68px;
+      margin-right: 20px;
+    }
+    .user-name {
+      font-size: 20px;
+      font-weight: 500;
+    }
+    .history-info {
+      font-size: 14px;
+      font-weight: 300;
+    }
+  }
+}

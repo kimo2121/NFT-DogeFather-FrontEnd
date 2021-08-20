@@ -1,0 +1,23 @@
+.input-wrapper {
+  position: relative;
+  label {
+    font-size: 18px;
+    font-weight: 300;
+  }
+  .postfix {
+    position: absolute;
+    right: 20px;
+    top: 24%;
+    vertical-align: middle;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  input {
+    background-color: #242424;
+    border: 1px solid #828282;
+    border-radius: 4px;
+    width: 100%;
+    padding: 10px 20px;
+    color: #828282;
+  }
+}

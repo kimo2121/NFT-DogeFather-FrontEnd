@@ -1,0 +1,34 @@
+[
+  {
+    "title": "All",
+    "icon": "/img/all.png"
+  },
+  {
+    "title": "Games",
+    "icon": "/img/games.png"
+  },
+  {
+    "title": "Art",
+    "icon": "/img/rainbow.png"
+  },
+  {
+    "title": "Photo",
+    "icon": "/img/photo.png"
+  },
+  {
+    "title": "Punks",
+    "icon": "/img/punks.png"
+  },
+  {
+    "title": "Music",
+    "icon": "/img/music.png"
+  },
+  {
+    "title": "Memes",
+    "icon": "/img/memes.png"
+  },
+  {
+    "title": "Meta",
+    "icon": "/img/meta.png"
+  }
+]

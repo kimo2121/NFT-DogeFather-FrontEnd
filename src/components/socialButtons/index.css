@@ -1,0 +1,13 @@
+.social-buttons {
+  width: fit-content;
+  margin: auto;
+  line-height: 0;
+}
+.social-buttons > div {
+  border-radius: 50%;
+}
+.social-buttons img {
+  width: 15px;
+  height: 15px;
+  color: var(--accent);
+}

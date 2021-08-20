@@ -1,0 +1,51 @@
+.aboutus-card1 {
+  .card {
+    background-color: var(--primary);
+    margin: auto;
+    color: #6f6f6f;
+    box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.7);
+    -webkit-box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.7);
+    -moz-box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+    max-width: 600px;
+    height: 400px;
+    .card-body {
+      padding: 5px 5px 0px;
+
+      img {
+        border-radius: 30px;
+        height: 100%;
+        width: 100%;
+      }
+    }
+  }
+  p {
+    &.lg {
+      font-size: 32px;
+      font-weight: 500;
+    }
+    &.md {
+      font-size: 18px;
+      font-weight: 300;
+      @media (max-width: 576px) {
+        font-size: 15px;
+      }
+    }
+  }
+}
+
+.aboutus-card2 {
+  background-color: transparent;
+  margin: auto;
+  border: none;
+  p {
+    &.lg {
+      font-size: 32px;
+      font-weight: 500;
+    }
+    &.md {
+      font-size: 22px;
+      font-weight: 300;
+    }
+  }
+}

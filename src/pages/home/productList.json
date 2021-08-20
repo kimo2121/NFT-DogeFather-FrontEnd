@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Product 1",
+    "image": "/img/c-bg-1.png",
+    "price": "0.50 BNB",
+    "profile": { "userType": "creator", "userName": "Hitesh saini", "userIcon": "/img/pro1.png", "verified": true }
+  },
+  {
+    "name": "Product 2",
+    "image": "/img/pro1.png",
+    "price": "0.20 BNB",
+    "profile": { "userType": "creator", "userName": "Hitesh saini", "userIcon": "/img/c-bg-1.png", "verified": false }
+  },
+  {
+    "name": "Product 1",
+    "image": "/img/c-bg-1.png",
+    "price": "0.50 BNB",
+    "profile": { "userType": "creator", "userName": "Hitesh saini", "userIcon": "/img/pro1.png", "verified": true }
+  },
+  {
+    "name": "Product 2",
+    "image": "/img/pro1.png",
+    "price": "0.20 BNB",
+    "profile": { "userType": "creator", "userName": "Hitesh saini", "userIcon": "/img/c-bg-1.png", "verified": false }
+  },
+  {
+    "name": "Product 1",
+    "image": "/img/c-bg-1.png",
+    "price": "0.50 BNB",
+    "profile": { "userType": "creator", "userName": "Hitesh saini", "userIcon": "/img/pro1.png", "verified": true }
+  },
+  {
+    "name": "Product 2",
+    "image": "/img/pro1.png",
+    "price": "0.20 BNB",
+    "profile": { "userType": "creator", "userName": "Hitesh saini", "userIcon": "/img/c-bg-1.png", "verified": false }
+  },
+  {
+    "name": "Product 1",
+    "image": "/img/c-bg-1.png",
+    "price": "0.50 BNB",
+    "profile": { "userType": "creator", "userName": "Hitesh saini", "userIcon": "/img/pro1.png", "verified": true }
+  },
+  {
+    "name": "Product 2",
+    "image": "/img/pro1.png",
+    "price": "0.20 BNB",
+    "profile": { "userType": "creator", "userName": "Hitesh saini", "userIcon": "/img/c-bg-1.png", "verified": false }
+  },
+  {
+    "name": "Product 1",
+    "image": "/img/c-bg-1.png",
+    "price": "0.50 BNB",
+    "profile": { "userType": "creator", "userName": "Hitesh saini", "userIcon": "/img/pro1.png", "verified": true }
+  }
+]

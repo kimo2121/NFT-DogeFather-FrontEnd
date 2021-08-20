@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="12.25" height="13.274" viewBox="0 0 12.25 13.274">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.18" y1="0.131" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#cb8f89"/>
+      <stop offset="0.502" stop-color="#e9a46e"/>
+      <stop offset="1" stop-color="#b16f36"/>
+    </linearGradient>
+  </defs>
+  <path id="Icon_ionic-md-headset" data-name="Icon ionic-md-headset" d="M10.625,3.375A6.208,6.208,0,0,0,4.5,9.663v4.89a2.068,2.068,0,0,0,2.042,2.1H8.583V11.031H5.862V9.663a4.826,4.826,0,0,1,4.763-4.89,4.824,4.824,0,0,1,4.763,4.89v1.369H12.667v5.615h2.042a2.066,2.066,0,0,0,2.042-2.1V9.663A6.208,6.208,0,0,0,10.625,3.375Z" transform="translate(-4.5 -3.375)" fill="url(#linear-gradient)"/>
+</svg>
